@@ -9,6 +9,7 @@ using namespace std;
   
 // Function to generate N prime numbers using  
 // Sieve of Eratosthenes 
+// O(n*log(logn))
 void SieveOfEratosthenes(vector<int> &primes)  
 {  
     // Create a boolean array "IsPrime[0..MAX_SIZE]" and  
